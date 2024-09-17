@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: try_spring_integration_basic
+server:
+  port: 8082
+
+  tomcat:
+    threads:
+      max: 50
+      min-spare: 2
+    max-connections: 10
+
+app:
+  sokey: 
